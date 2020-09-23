@@ -41,7 +41,7 @@ export default class NavigationBar extends React.Component {
                             <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item>
                             <Nav.Item><Nav.Link href="/aboutus">About Us</Nav.Link></Nav.Item>
                             <Nav.Item><Nav.Link href="officers">Officers</Nav.Link></Nav.Item>
-                            <Nav.Item><Nav.Link href="/pr">PR</Nav.Link></Nav.Item>
+                            <Nav.Item><Nav.Link href="/pr">Rankings</Nav.Link></Nav.Item>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
