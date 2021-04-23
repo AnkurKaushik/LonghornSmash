@@ -6,7 +6,7 @@ import BottomTriangle from '../components/BottomTriangle';
 import '../css/Schedule.css'
 
 
-const ourTournaments = "One of Longhorn Smash's most important activities are our weekly tournament (aptly called 'weeklies). These weeklies are low-stress tournaments where primarily UT students come together to socialize and compete in Smash. If you're looking to get involved in the community, attending our weeklies is the easiest and most effective way to meet other students in Longhorn Smash. These weekly tournaments also have a prize payout for those who make it in the top 8 of all constestants. Occasionally, we hold largeer tournaments that have larger prize pools and tend to attract talent from all over the Austin area and even other regions of Texas."
+const ourTournaments = "One of Longhorn Smash's most important activities are our weekly tournament (aptly called 'weeklies). These weeklies are low-stress tournaments where primarily UT students come together to socialize and compete in Smash. If you're looking to get involved in the community, attending our weeklies is the easiest and most effective way to meet other students in Longhorn Smash. Occasionally, we hold largeer tournaments that have larger prize pools and tend to attract talent from all over the Austin area and even other regions of Texas."
 const information = "By far the easiest way to learn about our tournaments is to join our Discord and ask! You can join our discord by clicking the discord icon to the right. We have also included a Google Calendar that may (or may not) be up to date with our tournaments."
 export default class Schedule extends React.Component {
     render() {
