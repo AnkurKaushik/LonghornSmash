@@ -1,18 +1,30 @@
-.hstyle {
-    text-align: center;
-    font-family: 'HKGroteskBold';
-    font-size: 65px;
+.background-color {
+    background-color: #f8f8f8;
 }
 
-h3 {
+.pr-title {
+    text-align: center;
+    font-family: 'Suez One', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 3.5vw;
+    margin: 0.9em
+}
+
+.pr-subheading {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
-    color: #cd6c3c;
+    font-size: 2.5vw;
+    color: black;
+    margin: 0.7em 0 0.7em 0;
 }
 
-p {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #fff;
+.pr-text {
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 1.1vw;
+    margin: 0.5em;
 }
 
 a:link {
@@ -21,15 +33,19 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: #cd6c3c;
+    color: #E3591E;
 }
 
 /* mouse over link */
 a:hover {
-    color: #fff;
+    color: blue;
 }
 
 /* selected link */
 a:active {
     color: #cd6c3c;
+}
+
+#secondPRSection {
+    background-color: #fff;
 }

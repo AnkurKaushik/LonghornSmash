@@ -1,21 +1,66 @@
 html {
-    background-color: gainsboro;
+    background-color: #FBFBFB;
 }
 
 .Home {
-    background-color: teal;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: cover;
-    background-image: url("../assets/ultimateposter4.jpg");
+    background-image: url("../assets/Home.png");
     background-repeat: no-repeat;
     height: 100vh;
-    background-color: gainsboro;
+}
+
+.temp {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Suez One', serif;
+}
+
+.title {
+    font-family: 'Suez One', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 4.5vw;
+    margin: 0.9em;
+}
+
+.subheading {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 2.5vw;
+    color: black;
+    margin: 0.7em 0 0.7em 0;
+}
+
+.quirky-orange {
+    color: #E3591E
+}
+
+.home-text {
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 1vw;
+    margin: 0.5em;
+}
+
+#second {
+    height: 80vh;
+    background-color: #F8F8F8;
+}
+
+#third {
+    background-color: #fff;
+    height: 90vh;
+}
+
+#videoplayer {
+    margin: 5em;
 }
 
 
-.hstyle {
+/* .hstyle {
     text-align: center;
     font-family: "SmashUltimate";
     font-size: 100px;
@@ -27,12 +72,14 @@ html {
     color: #fff;
     font-size: 6vw;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-}
+} */
 
-.tournament-headings {
-    font-family: "HKGrotesk", Arial, sans-serif;
-    color: #000;
-    font-size: 40px;
+/* .tournament-headings {
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: #cd6c3c;
+    font-size: 3vw;
     margin-top: 0.9em;
 }
 
@@ -48,18 +95,4 @@ html {
     color: #000;
     font-size: 40px;
     margin-top: 0.9em;
-}
-
-#second {
-    height: 100vh;
-    background-color: gainsboro;
-}
-
-#third {
-    background-color: goldenrod;
-}
-
-#fourth {
-    height: 100vh;
-    background-color: lightblue;
-}
+} */

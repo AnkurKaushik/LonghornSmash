@@ -1,8 +1,4 @@
-.background-color {
-    background-color: #f8f8f8;
-}
-
-.officers-title {
+.schedule-title {
     font-family: 'Suez One', sans-serif;
     font-weight: bold;
     color: black;
@@ -11,7 +7,7 @@
     text-align: center;
 }
 
-.officers-subheading {
+.schedule-subheading {
     font-family: 'Source Sans Pro', sans-serif;
     color: black;
     font-size: 3vw;
@@ -20,7 +16,7 @@
     text-align: left;
 }
 
-.description {
+.schedule-text {
     font-family: 'Barlow', sans-serif;
     color: #000;
     font-size: 1.2vw;
@@ -28,14 +24,11 @@
     text-align: left;
 }
 
-.text {
-    color: #000;
+.tournament-info {
+    height: 85vh;
 }
 
-.role {
-    font-size: 1.1vw;
-}
-
-#secondOfficersSection {
+.calendar {
+    height: 70vh;
     background-color: #fff;
 }

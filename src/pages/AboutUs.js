@@ -10,161 +10,183 @@ import avinash from '../assets/officers/avinash.jpg'
 import joji from '../assets/officers/joji.jpg'
 import alana from '../assets/officers/alana.jpg'
 import fawad from '../assets/officers/fawad.jpg'
+import discord from '../assets/DiscordLogo.png'
 
 import minus from '../assets/community/img1.jpg'
 import favorit from '../assets/community/img2.jpg'
 import waltz from '../assets/community/img3.jpg'
 import studz from '../assets/community/img4.jpg'
 import kaiser from '../assets/community/img5.jpg'
+import BottomTriangle from '../components/BottomTriangle';
 
 const pr_images = [
-    {
-      original: waltz
-    },
-    {
-      original: favorit
-    },
-    {
-      original: minus
-    },
-    {
-        original: studz
-    },
-    {
-        original: kaiser
-    }
+    {original: waltz},
+    {original: favorit},
+    {original: minus},
+    {original: studz},
+    {original: kaiser}
 ];
 
 
 
 const hstyle = {
     textAlign: "center",
-    fontFamily: "SmashUltimate",
-    fontSize: "65px",
-    color: 'white'
+    fontWeight: "bold",
+    fontFamily: "Suez One",
+    fontSize: "4vw",
+    marginTop: "0.9em",
+    marginRight: "0.9em",
+    marginLeft: "0.9em",
+    marginBottom: "0.5em",
+    color: 'black'
 };
 
 const hstyle2 = {
     textAlign: "center",
+    fontFamily: "Source Sans Pro",
     fontSize: "65px",
-    color: "#cd6c3c"
+    fontWeight: "bold",
+    color: "#black"
 };
 
 const h2style = {
     textAlign: "center",
-    fontFamily: "GothamBlackRegular",
+    fontFamily: "Source Sans Pro",
     fontSize: "25px",
     marginTop: "20px",
-    color: "#cd6c3c"
+    color: "#black"
 };
 
 const pstyle = {
     textAlign: "center",
-    fontFamily: "GothamBlackRegular",
+    fontFamily: "Barlow",
     fontSize: "25px",
-    color: 'white'
+    fontWeight: "bold",
+    color: 'black'
 };
-const pstyle2 = {
-    textAlign: "center",
-    fontFamily: "GothamBlackRegular",
-    fontSize: "25px",
-    marginTop:"20px",
-    color: 'white'
-};
+// const pstyle2 = {
+//     textAlign: "center",
+//     fontFamily: "Source Sans Pro",
+//     fontSize: "25px",
+//     marginTop:"20px",
+//     color: 'black'
+// };
 
 const pstyle3 = {
-    fontFamily: "GothamBlackRegular",
-    fontSize: "25px",
-    color: 'white'
+    fontFamily: "Barlow",
+    fontSize: "23px",
+    fontWeight: "bold",
+    color: 'black'
 };
 
 const pstyle4 = {
     textAlign: "right",
-    fontFamily: "GothamBlackRegular",
-    fontSize: "25px",
-    color: 'white',
+    fontFamily: "Barlow",
+    fontSize: "23px",
+    fontWeight: "bold",
+    color: 'black',
     marginRight: "10px"
 };
 
 
 export const AboutUs = () => (
-    <div style={{
-        backgroundColor: '#000', width: '100%',
-        height: '100%'}}>
-        <h2 style={hstyle}>ABOUT US</h2>
+    <div>
+        <div style={{
+            backgroundColor: '#f8f8f8', width: '100%',
+            height: '100%'}}>
 
+            <Container>
+                <Row>
+                    <Col>
+                        <h2 style={hstyle}>About <span class="quirky-orange">Us</span></h2>
+                        <p style={pstyle}>Longhorn Smash is an organization fostered by a unified passion for the Super Smash Bros series. Its members build friendship through playing video games together, organizing social events, and competing in weekly tournaments hosted by the organization’s administration team.</p> 
+                    </Col>
+                </Row>
+            </Container>
+            <br></br>
+            <h2 style={hstyle2}>History<span class="quirky-orange">.</span></h2>
+            <br></br>
+            <Container>
+            <Row>
+                <Col>
+                <YouTube videoId={'WGsMY2Xzjow'}/>
+                </Col>
+            <Col>
+            <p style={pstyle3}>
+                Longhorn Smash began as a grassroots club among a small group of UT students who wanted people to play Smash with. Throughout the years, it has evolved into something bigger than its parts,
+                growing in membership and activity. Our Discord server boasts a member count of ___. We host weekly tournaments that are open to all skill levels of players, encouraging UT students to get a taste
+                of the competitive scene. 
+            </p>
+            </Col>
 
-        <p style={pstyle}>Longhorn Smash is an organization fostered by a unified passion for the Super Smash Bros series. Its members build friendship through playing video games together, organizing social events, and competing in weekly tournaments hosted by the organization’s administration team.</p> 
+            </Row>
+            </Container>
 
-        <br></br>
-        <h2 style={hstyle2}>History</h2>
-        <br></br>
-        <Container fluid style = {{margin: "10px"}}>
-        <Row>
-            <YouTube videoId={'WGsMY2Xzjow'}/>
-        <Col>
-        <p style={pstyle3}>
-            Longhorn Smash began as a grassroots club among a small group of UT students who wanted people to play Smash with. Throughout the years, it has evolved into something bigger than its parts,
-            growing in membership and activity. Our Discord server boasts a member count of ___. We host weekly tournaments that are open to all skill levels of players, encouraging UT students to get a taste
-            of the competitive scene. We also host bigger monthly tournaments that attract Smash players from out of city, even drawing in some ranked players to face off against UT and its finest.
-            Our Discord provides a way for our members to maintain communication and organize hangouts, both in and out of smash. Our members frequently host smashfests and training sessions, as well as 
-            boba runs and carpools to Austin tournaments.
-        </p>
-        </Col>
-
-        </Row>
-        </Container>
-
-        <br></br>
-        <h2 style={hstyle2}>Community</h2>
-        <br></br>
-        <Container fluid style = {{margin: "10px"}}>
-        <Row>
-        
+            <br></br>
+            <h2 style={hstyle2}>Community<span class="quirky-orange">.</span></h2>
+            <br></br>
+            <Container>
+            <Row>
             
+                
 
-        <Col>
-        <p style={pstyle4}>
-        This past school year, Longhorn Smash introduced guilds to our community. Our top 3 players each lead one guild, and these guilds are fighting to obtain the most points through various means.
-        However, the guild system is more than just friendly competition for our members; the guilds offer new members a way to make new friends in the community and feel welcome to the scene.
-        Each guild hosts practice sessions and other hangouts ranging from just getting dinner to escape rooms to PCL study sessions. Our community has long been a place to form new friendships and maintain old ones,
-        and guilds are simply an extension of that guiding principle for us. Our community joins together through smash, but blossoms into so much more thanks to the people in it.
-        </p>
-        </Col>
+            <Col>
+                <p style={pstyle4}>
+                This past school year, Longhorn Smash introduced guilds to our community. Our top 3 players each lead one guild, and these guilds are fighting to obtain the most points through various means.
+                However, the guild system is more than just friendly competition for our members; the guilds offer new members a way to make new friends in the community and feel welcome to the scene.
+                Each guild hosts practice sessions and other hangouts ranging from just getting dinner to escape rooms to PCL study sessions. Our community joins together through smash, but blossoms into so much more thanks to the people in it.
+                </p>
+                
+            </Col>
 
+            <div style={{width: "600px", marginRight: "30px"}}>
+                <ImageGallery items={pr_images} autoPlay="true"/>
+            </div>
+            </Row>
+            </Container>
 
-        <ImageGallery items={pr_images} autoPlay="true"/>
-       
+            <div id="secondAboutUs">
+                <BottomTriangle></BottomTriangle>
+                <br></br>
+                <h2 style={hstyle2}>Competition<span class="quirky-orange">.</span></h2>
+                <br></br>
+                <Container>
+                <Row>
+                    <Col>
+                        <YouTube videoId={'R930gktTpcM'} />
+                    </Col>
+                <Col>
+                    <p style={pstyle3}>
+                        Longhorn Smash became a branch of Longhorn Gaming this past school year, joining us with the other competitive collegiate esports teams on the UT campus. Our competitive scene
+                        has been our main focus from the start; our organization hosts frequent tournaments and practice sessions for both competitive and casual players. As for collegiate smash,
+                        Longhorn Smash competes in the Collegiate Starleague, sending our best players to compete in 5v5 crew battles against other colleges.
+                    </p>
+                </Col>
 
-        </Row>
-        </Container>
-
-        <br></br>
-        <h2 style={hstyle2}>Competition</h2>
-        <br></br>
-        <Container fluid style = {{margin: "10px"}}>
-        <Row>
-        <YouTube videoId={'R930gktTpcM'} />
-        <Col>
-        <p style={pstyle3}>
-            Longhorn Smash became a branch of Longhorn Gaming this past school year, joining us with the other competitive collegiate esports teams on the UT campus. Our competitive scene
-            has been our main focus from the start; our organization hosts frequent tournaments and practice sessions for both competitive and casual players. As for collegiate smash,
-            Longhorn Smash competes in the Collegiate Starleague, sending our best players to compete in 5v5 crew battles against other colleges. All of the funding for travel and entry has
-            been raised by the students themselves. UT has competed with the best of the best, tying for 1st with UTD (#1 nationally last season) in the South Regional qualifiers and making top 16 in the nation this past
-            CSL season. We hope that with the added support of Longhorn Gaming our crew battle team will continue to grow and put UT in the national spotlight in the coming years.
-        </p>
-        </Col>
-
-        </Row>
-        </Container>
-
-
-
-
-        <p style={pstyle}>The primary way our group communicates is through Discord; <a textAlign='center' href={"https://discord.gg/UrNNR92"}>click here to join!</a></p>
-
-
-        <p style={pstyle2}>Find us on <a textAlign='center' href={"https://utexas.campuslabs.com/engage/organization/cgc"}>HornsLink</a></p>
-
+                </Row>
+                </Container>
+                <br></br><br></br>
+                <Container>
+                    <Row>
+                        <Col>
+                            <h2 style={hstyle2}>Get Involved<span class="quirky-orange">!</span></h2>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            
+                            <p style={pstyle}>The best way to join our community is to introduce yourself over on Discord. Click the icon on the right to join. We keep our discord updated with all of our important information, and it's our memebers regularly talk amongst themselves there as well.</p>
+                        </Col>
+                        <Col>
+                            <a href="https://discord.gg/Ms6XvTga">
+                                <Image src={discord} fluid/>
+                            </a>
+                        </Col>
+                    </Row>
+                    <Row></Row>
+                </Container>
+                <br></br><br></br><br></br>
+            </div>
+        </div>
     </div>
 )

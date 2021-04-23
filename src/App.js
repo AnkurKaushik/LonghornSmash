@@ -6,6 +6,7 @@ import PR from './pages/PR';
 import {NoMatch} from './pages/NoMatch';
 import NavigationBar from './components/NavigationBar';
 import {Officers} from './pages/Officers'
+import Schedule from './pages/Schedule'
 
 class App extends Component {
   render(){
@@ -14,10 +15,11 @@ class App extends Component {
         <NavigationBar/>
         <Router>
           <Switch>
-            <Route exact path="/" component={Home}/>
-            <Route path="/aboutus" component={AboutUs}/>
-            <Route path="/officers" component={Officers}/>
-            <Route path="/pr" component={PR}/>
+            <Route path="/" exact component={Home}/>
+            <Route path="/aboutus" exact component={AboutUs}/>
+            <Route path="/officers" exact component={Officers}/>
+            <Route path="/pr" exact component={PR}/>
+            <Route path="/tournaments" exact component={Schedule}/>
             <Route component={NoMatch}/>
           </Switch>
         </Router>

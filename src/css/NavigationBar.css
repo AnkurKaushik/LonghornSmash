@@ -1,0 +1,21 @@
+.navbar {
+    background-color: #fff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    /* background-color: #E3591E; */
+    font-weight: bold;
+    color: #E3591E;
+    border-bottom: 3px solid #E3591E;
+}
+
+.navbar {
+    transition: 0.15s;
+}
+
+.navbar.scrolled {
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
