@@ -1,8 +1,3 @@
-.quirky-orange {
-  color: #E3591E
-}
-
-
 .ls-title {
   font-family: 'Suez One', sans-serif;
   font-weight: bold;
@@ -31,6 +26,10 @@
 
 .ls-bolded {
   font-weight: bold;
+}
+
+.quirky-orange {
+  color: #E3591E
 }
 
 .background-section-1 {
