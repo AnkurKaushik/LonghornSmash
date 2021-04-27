@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
+.quirky-orange {
+  color: #E3591E
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.ls-title {
+  font-family: 'Suez One', sans-serif;
+  font-weight: bold;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ls-subheading {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ls-text {
+  font-family: 'Barlow', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ls-bolded {
+  font-weight: bold;
 }
