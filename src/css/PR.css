@@ -1,24 +1,16 @@
 .pr-title {
-    text-align: center;
-    font-family: 'Suez One', sans-serif;
-    font-weight: bold;
-    color: black;
     font-size: 3.5vw;
     margin: 0.9em
 }
 
 .pr-subheading {
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     font-size: 2.5vw;
-    color: black;
     margin: 0.7em 0 0.7em 0;
 }
 
 .pr-text {
-    font-family: 'Barlow', sans-serif;
     font-weight: bold;
-    color: black;
     font-size: 1.1vw;
     margin: 0.5em;
 }
