@@ -1,25 +1,7 @@
 import React from 'react';
 import {Nav, Navbar} from 'react-bootstrap';
-import styled from 'styled-components';
 import logo from '../assets/LS_Logo.png'
 import "../css/NavigationBar.css"
-
-// const Styles = styled.div`
-//     .navbar{
-//         background-color: #000;
-//         font-family: "Source Sans Pro", sans-serif;
-//         font-size: 120%;
-//         padding: 1em
-//     }
-//     .navbar-brand, .navbar-nav .nav-link {
-//         color: white;
-
-//         &:hover{
-//             color: #cd6c3c;
-//             transition: color 0.2s
-//         }
-//     }
-// `;
 
 export default class NavigationBar extends React.Component {
 

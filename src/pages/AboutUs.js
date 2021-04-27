@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Row, Container, Image, Card, Button } from 'react-bootstrap';
+import { Col, Row, Container, Image } from 'react-bootstrap';
 import YouTube from 'react-youtube';
 import ImageGallery from 'react-image-gallery';
 import discord from '../assets/DiscordLogo.png'
