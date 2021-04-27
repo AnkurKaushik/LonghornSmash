@@ -1,34 +1,7 @@
-.schedule-title {
-    font-family: 'Suez One', sans-serif;
-    font-weight: bold;
-    color: black;
-    font-size: 4vw;
-    margin: 0.9em;
-    text-align: center;
-}
-
-.schedule-subheading {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: black;
-    font-size: 3vw;
-    font-weight: bold;
-    margin: 0.3em 0 0.3em 0;
-    text-align: left;
-}
-
-.schedule-text {
-    font-family: 'Barlow', sans-serif;
-    color: #000;
-    font-size: 1.2vw;
-    margin: 0.3em;
-    text-align: left;
-}
-
-.tournament-info {
+.tournaments-info {
     height: 85vh;
 }
 
 .calendar {
     height: 70vh;
-    background-color: #fff;
 }

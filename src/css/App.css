@@ -7,18 +7,36 @@
   font-family: 'Suez One', sans-serif;
   font-weight: bold;
   color: black;
+  font-size: 4vw;
+  margin: 0.9em;
+  text-align: center;
 }
 
 .ls-subheading {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
   color: black;
+  margin: 0.3em 0 0.3em 0;
+  text-align: left;
+  font-size: 3vw;
 }
 
 .ls-text {
   font-family: 'Barlow', sans-serif;
+  font-size: 1.2vw;
+  color: black;
+  margin: 0.3em;
+  text-align: left;
 }
 
 .ls-bolded {
   font-weight: bold;
+}
+
+.background-section-1 {
+  background-color: #f8f8f8;
+}
+
+.background-section-2 {
+  background-color: white;
 }
