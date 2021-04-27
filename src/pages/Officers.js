@@ -16,7 +16,14 @@ import Officer from '../components/Officer'
 import BottomTriangle from '../components/BottomTriangle'
 import '../css/Officers.css'
 
+let officers_description = "Longhorn Smash is managed by a group of administrators that help run tournaments, manage the discord, keep the guilds going, and create and sell club merchandise such as T-shirts and pins. We strive to create a friendly and welcoming environment for new members as well as fostering a competitive scene in Super Smash Bros. among UT students."
 let placeholder = "Hi guys. Epic fortnite chungus 420 blaze it then glaze it krispy kreme faciliodge. Shhheeesshh??? Shhhessshh!!!"
+let president = "Spooncats is currently our president. He oversees all LS activities and plans and organizes the different tournaments we run. He also creates sometimes creates graphics for the various tournaments that we have."
+let webmaster = "Ryan Menghani AKA Peels is currently the webmaster for LS. He maintains the website and other techincal aspects of the club as they come up. He mains Wolf and thinks Terry and PacMan are the dumbest characters in the game."
+let secretary = "Hi, the secretary description should go here. It's really cool and all, but I'm really not good with words. Especially concering the different club positions. Please help me."
+let vice_president = "Hi, the vice-president description should go here. It's really cool and all, but I'm really not good with words. Especially concering the different club positions. Please help me.s"
+let graphics = "Hi, the graphics-design description should go here. It's really cool and all, but I'm really not good with words. Especially concering the different club positions. Please help me."
+let administrator = "Hi, the administrator description should go here. It's really cool and all, but I'm really not good with words. Especially concering the different club positions. Please help me."
 
 export const Officers = () => (
     <div>
@@ -30,7 +37,7 @@ export const Officers = () => (
                 <Row>
                     <Col>
                         <p class="officers-subheading">About The Officers<span class="quirky-orange">.</span></p>
-                        <p class="description">The officers help manage the tournaments, distribute tournament winnings, and maintain the discord. We work very hard. Espically me. The guy who made this website. Yup. Ignore the fact that I basically went afk for the last two meetings! Hype in my hype.</p>
+                        <p class="description">{officers_description}</p>
                         <br></br><br></br>
                         
                     </Col>
@@ -42,12 +49,12 @@ export const Officers = () => (
             <Container>
                 <Row><p class="officers-subheading">Meet our officers<span class="quirky-orange">!</span></p></Row>
                 <Row>
-                    <Officer name="Avinash Damania" src={avinash} role="Administrator" desc={placeholder}></Officer>
-                    <Officer name="Avinash Damania" src={avinash} role="Administrator" desc={placeholder}></Officer>
-                    <Officer name="Avinash Damania" src={avinash} role="Administrator" desc={placeholder}></Officer>
-                    <Officer name="Avinash Damania" src={avinash} role="Administrator" desc={placeholder}></Officer>
-                    <Officer name="Avinash Damania" src={avinash} role="Administrator" desc={placeholder}></Officer>
-                    <Officer name="Avinash Damania" src={avinash} role="Administrator" desc={placeholder}></Officer>
+                    <Officer name="Alana Hernandez" src={alana} role="President" desc={president}></Officer>
+                    <Officer name="Ankur Kaushik" src={ankurkaushik} role="President" desc={administrator}></Officer>
+                    <Officer name="Joji joji joji sherman" src={joji} role="Webmaster/Admin" desc={webmaster}></Officer>
+                    <Officer name="Fawad Haq" src={fawad} role="Administrator" desc={administrator}></Officer>
+                    <Officer name="Joseph Studer" src={josephstuder} role="Vice President" desc={vice_president}></Officer>
+                    <Officer name="Avinash Damania" src={avinash} role="Administrator" desc={administrator}></Officer>
                 </Row>
             </Container>
         </div>

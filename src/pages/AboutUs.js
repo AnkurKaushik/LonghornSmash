@@ -114,7 +114,7 @@ export const AboutUs = () => (
             <Col>
             <p style={pstyle3}>
                 Longhorn Smash began as a grassroots club among a small group of UT students who wanted people to play Smash with. Throughout the years, it has evolved into something bigger than its parts,
-                growing in membership and activity. Our Discord server boasts a member count of ___. We host weekly tournaments that are open to all skill levels of players, encouraging UT students to get a taste
+                growing in membership and activity. Our Discord server has over 500 members and alumni. We host weekly tournaments that are open to all skill levels of players, encouraging UT students to get a taste
                 of the competitive scene. 
             </p>
             </Col>
@@ -132,9 +132,9 @@ export const AboutUs = () => (
 
             <Col>
                 <p style={pstyle4}>
-                This past school year, Longhorn Smash introduced guilds to our community. Our top 3 players each lead one guild, and these guilds are fighting to obtain the most points through various means.
-                However, the guild system is more than just friendly competition for our members; the guilds offer new members a way to make new friends in the community and feel welcome to the scene.
-                Each guild hosts practice sessions and other hangouts ranging from just getting dinner to escape rooms to PCL study sessions. Our community joins together through smash, but blossoms into so much more thanks to the people in it.
+                Starting in 2020, Longhorn Smash introduced guilds to the community. Top players in the group led each guild, and each guild competed to earn points in the Discord.
+                While the guild system is constantly evolving, one thing has stayed true: the guild system encourages friendly competition and banter among our memebers. It offers new members a way to make friends in the communituy and welcome to the scene.
+                From practice sessions to hangouts ranging from Boba meetups to escape rooms to PCL study sessions, our community joins members together through smash and fun.
                 </p>
                 
             </Col>
@@ -159,7 +159,7 @@ export const AboutUs = () => (
                     <p style={pstyle3}>
                         Longhorn Smash became a branch of Longhorn Gaming this past school year, joining us with the other competitive collegiate esports teams on the UT campus. Our competitive scene
                         has been our main focus from the start; our organization hosts frequent tournaments and practice sessions for both competitive and casual players. As for collegiate smash,
-                        Longhorn Smash competes in the Collegiate Starleague, sending our best players to compete in 5v5 crew battles against other colleges.
+                        Longhorn Smash competes in the Collegiate Starleague, sending our best players to compete in 5v5 crew battles against other colleges. We are currently ranked 4th in the nation among all smash teams!
                     </p>
                 </Col>
 

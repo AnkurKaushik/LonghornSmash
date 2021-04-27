@@ -28,6 +28,10 @@ const pr_images = [
     {original: ruski},
 ];
 
+let pr_description = "The UT Power Rankings (PR) is a ranking of the best 10 current active members in our community."
+let pr_determination = "The PR is determined by a variety of factors, but the most influential factor is how these players have placed in the tournaments that we run. Consistent, high placings will put you in consideration for our PR. It is managed by a group of players, known as the PR Panel."
+let how_get = ""
+
 export default class PR extends React.Component {
     render() {
         return (
@@ -43,7 +47,7 @@ export default class PR extends React.Component {
                         <Col>
                             <h3 class="pr-subheading">What are the UT Power Rankings<span className="quirky-orange">?</span></h3>
 
-                            <p class="pr-text">Every semester we rank the pr and it's fine and dandy and we should give a description here so that we can explain what it is.</p>
+                            <p class="pr-text">{pr_description}</p>
 
                             <h3 class="pr-subheading">Who are these players<span className="quirky-orange">?</span></h3>
 
@@ -52,11 +56,11 @@ export default class PR extends React.Component {
 
                             <h3 class="pr-subheading">How are people determined to be on the UT PR<span className="quirky-orange">?</span></h3>
 
-                            <p class="pr-text">Attendance to tournaments, good results, and a panel system</p>
+                            <p class="pr-text">{pr_determination}</p>
 
                             <h3 class="pr-subheading">How do I get good enough to be on the PR<span className="quirky-orange">?</span></h3>
 
-                            <p class="pr-text">By attending tournaments, both here at UT and around Austin, and by practicing! Luckily, there are frequent meetups created to play other club members, which you can find out about through our **discord**</p>
+                            <p class="pr-text">By attending tournaments, both here at UT and around Austin, and by practicing! Luckily, there are frequent meetups created to play other club members, which you can find out about through <a href="https://discord.gg/Ms6XvTga">our Discord</a></p>
                         </Col>
                     </Row>
                 </Container>

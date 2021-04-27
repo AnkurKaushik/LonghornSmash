@@ -24,6 +24,10 @@ export default class Home extends React.Component {
               </Col> */}
             {/* </Row> */}
           {/* </Container> */}
+          <a href="#second">
+            <div class="arrow bounce arrow-bottom">
+            </div>
+          </a>
         </div>
         <div id="second">
             <Container style= {{marginBottom: "1em"}}>
@@ -43,7 +47,7 @@ export default class Home extends React.Component {
                   </p>
                   <h2 class="subheading text-left">Some more important information<span class="quirky-orange">.</span></h2>
                   <p class="home-text text-left">
-                    We hold tournaments every week (online during COVID). You can find out more information about that <a href="/tournaments">here</a>. We keep a list of our top ranked players from our previous semester. You can find that <a href="/pr">here</a>.
+                    We hold tournaments every week (online during COVID). You can find out more information about that <a href="/tournaments">here</a>. We keep a list of our top ranked players from our previous semesters. You can find that <a href="/pr">here</a>.
                   </p>
                   {/* <div id="videoplayer">
                     <ResponsivePlayer url={'https://www.youtube.com/watch?v=WC3WtXONu34'}/>
